@@ -1,0 +1,40 @@
+main{
+    width: 940px;
+    margin: 0 auto;
+    background-color: azure;
+}
+
+form label, form legend{
+display: block;
+font-size: 20px;
+margin: 0 0 10px 0;
+}
+
+.input-padrao{
+    display: block;
+    margin: 0 0 20px 0;
+    padding: 10px 25px;
+    width: 50%;
+    background-color: aqua;
+}
+
+.checkbox{
+    margin: 20px 0;
+}
+
+.enviar{
+    width: 40%;
+    padding: 15px 0;
+    background-color: orange;
+    border: none;
+    color: white;
+    font-size: 18px;
+    border-radius: 5px;
+    font-weight: bolder;
+    transition: 1s;
+}
+
+.enviar:hover{
+    background-color: darkorange;
+    transform: rotate(360deg) scale(1.3);
+}
